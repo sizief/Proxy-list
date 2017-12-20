@@ -9,6 +9,8 @@ This script crawls three proxy generator sites and generate a proxies.csv file c
 require proxy
 proxy = Proxy.new
 proxy.update #clean the proxies.csv file and create new fresh list
-proxy.get #get a random proxy from the proxies.csv
+proxy.get_int #get a random proxy from the proxies.csv INTERNATIONAL IP
+proxy.get_ir #get a random proxy from the proxies_ir.csv IRAN IP
+
 ```
 
